@@ -1,4 +1,5 @@
 npm install -g pm2-zabbix
+yum -y install redhat-lsb-core
 curl https://raw.githubusercontent.com/sukaslayer/pm2-zabbix/master/install/init/sysv/pm2-zabbix-defaults > /etc/default/pm2-zabbix
 curl https://raw.githubusercontent.com/sukaslayer/pm2-zabbix/master/install/init/sysv/pm2-zabbix > /etc/init.d/pm2-zabbix
 chmod +x /etc/init.d/pm2-zabbix
