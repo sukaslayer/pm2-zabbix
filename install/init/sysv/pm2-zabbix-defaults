@@ -2,7 +2,7 @@
 # Its settings are used by the sysvinit script pm2-zabbix.
 
 # Set the user to run the monitor as. This should be the same user that runs pm2.
-DAEMON_USER="debian"
+DAEMON_USER="root"
 
 # Optionally override the PM2_HOME environment if the user is running pm2 in a non-standard location (something else than $HOME/.pm2):
 # Uncomment if required.

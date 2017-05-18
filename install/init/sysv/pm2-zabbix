@@ -22,7 +22,7 @@ PATH=/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 #  to copy from the examples to /etc/default/pm2-zabbix .
 
 NAME="pm2-zabbix"
-DAEMON=/usr/local/bin/pm2-zabbix
+DAEMON=/usr/bin/pm2-zabbix
 PIDFILE=/var/run/pm2-zabbix.pid
 DAEMON_USER=debian
 
