@@ -4,9 +4,9 @@ After=network.target remote-fs.target
 
 [Service]
 Type=simple
-User=debian
+User=root
 
-ExecStart=/usr/local/bin/pm2-zabbix --monitor
+ExecStart=/usr/bin/pm2-zabbix --monitor --server zabbix.bookie.ch
 
 [Install]
 WantedBy=multi-user.target
